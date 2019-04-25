@@ -7,7 +7,6 @@
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- css -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,300,700,800" rel="stylesheet" media="screen">
-
   <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
   <link href="css/style.css" rel="stylesheet" media="screen">
   <link href="color/default.css" rel="stylesheet" media="screen">
@@ -15,7 +14,6 @@
 </head>
 
 <body>
-
   <!-- Navigation -->
   <nav class="navbar navbar-default" role="navigation">
     <div class="container">
@@ -34,7 +32,6 @@
       <div class="navigation collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav">
           <li class="current"><a href="#intro">Home</a></li>
-          <li><a href="#about">About</a></li>
         </ul>
       </div>
     </div>
@@ -47,9 +44,9 @@
         <div class="col-md-12">
           <div id="rotator">
             <h1>Rush Hour<span class="1strotate"></span></h1>
-            <h2>How do Chicago's neighborhoods use public transportation?<span class="1strotate"></span></h2>
+            <h2>A Digital Humanities Master's Project by Abdurrafey Khan, Loyola University Chicago<span class="1strotate"></span></h2>
             <div class="line-spacer"></div>
-            <p>Test<span class="2ndrotate"></span></p>
+            <p><span class="2ndrotate"></span></p>
           </div>
         </div>
       </div>
@@ -62,9 +59,13 @@
       <div class="row">
         <div class="col-md-offset-2 col-md-8">
           <div class="section-heading">
-            <h2>The City</h2>
+            <h2>Introduction</h2>
             <div class="heading-line"></div>
-            <p></p>
+            <p>Welcome to Rush Hour!</p>
+            <p>One of my favorite parts about living in Chicago is the public transportation system. I went to college in a tiny rural town that was an hour away from any cities, with no public transportation to speak of. Chicago's public transit might not be one of the best in the world, but I love being able to get anywhere I want in the city without needing to get in a car. Since moving here, I've become very passionate about public transportation. This is partly because I discovered a Facebook page called New Urbanist Memes for Transit Oriented Teens (aka NUMTOTs) that I thought was just a place for people to share train memes, but is actually for members to seriously discuss anything and everything related to urbanism. Public transit and Chicago come up a lot.</p>
+            <p>It took me some time to develop an idea for what I wanted to build for my Master's project, but I knew I had to research and create something I was passionate about. When I discovered that the Chicago Transity Authority (CTA) had a *ton* of open data about their systems, a public transit-related project quickly became the first choice on a very short list of topic ideas. I needed another piece though; what kind of questions could I ask that hadn't already been asked?</p>
+            <p>Another one of my favorite aspects of Chicago are the unique neighborhoods that make up the city. From Rogers Park to Logan Square, each neighborhood is distinct and has its own personality. After experiencing many of them, and how different they were from each other, I thought about how else they might differ. For example, how does each neighborhood use the public transportation in its area? Is it different from all the rest, or different from how it was ten years ago? How have the neighborhoods changed, and was it because of the CTA, or did the neighborhoods change first and take the CTA with them?</p>
+            <p>I love Chicago, and I wanted to know more about the neighborhoods the trains took me through, so I built this website. I hope you enjoy exploring what I found.</p> 
           </div>
         </div>
       </div>
@@ -72,13 +73,10 @@
         <div class="col-md-6 about-img">
           <img src="img/about-img.jpg" alt="">
         </div>
-
         <div class="col-md-6 content">
-          <h2>Chicago's Neighborhoods</h2>
-          <h3>How do Chicago's neighborhoods use public transportation?</h3>
-          <p>
-            I wanted to find out, so I started this project.
-          </p>
+          <h2>Methodology</h2>
+          <p>I started with the CTA's open data. The data sets they have are massive. I used Tableau Desktop to aggregate and visualize the many, many lines of data about L station entries and bus rides over time. The CTA started recording data in 1988, so there are annual ridership data for buses and trains from then until now. In 2001, the CTA also began recording total ridership by day type. The day types were weekdays, weekends, and holidays/Sundays. I mostly worked with the L station entry totals from 2001 to 2018. I also worked with the bus ridership totals from 2001 to 2018, but there are many bus routes, and it was much harder to find trends in the bus data. I also don't have the same amount of knowledge about the bus system as I do the L system, so I stuck to what I know. I also included the annual totals that the CTA has provided since 1988, to get a better idea of what the long-term trends look like in CTA usage.</p>
+          <p>Once I had my train data ready, I needed to get demographic information. My research questions were whether the CTA affects neighborhood demographics, or if it's the oppositve and neighborhood demographics affect how the CTA is used.</p> 
       </div>
     </div>
   </section>
@@ -105,7 +103,7 @@
          	</div>
          </div>
          </div>
-         <div class='tableauPlaceholder' style='width: 1440px; height: 700px;'><object class='tableauViz' width='1080' height='525' style='display:none;'><param name='host_url' value='https%3A%2F%2Fus-east-1.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;rushhour' /><param name='name' value='TotalRidership-BusandRail&#47;Sheet2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='showAppBanner' value='false' /><param name='filter' value='iframeSizedToWindow=true' /></object>
+         <div class='tableauPlaceholder' style='width: 1080px; height: 525px;'><object class='tableauViz' width='1080' height='525' style='display:none;'><param name='host_url' value='https%3A%2F%2Fus-east-1.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;rushhour' /><param name='name' value='TotalRidership-BusandRail&#47;Sheet2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='showAppBanner' value='false' /><param name='filter' value='iframeSizedToWindow=true' /></object>
          </div>
         </div>
       </div>
